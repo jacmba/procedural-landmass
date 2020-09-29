@@ -170,7 +170,10 @@ MonoBehaviour:
   mapWidth: 100
   mapHeight: 100
   noiseScale: 0.32
-  autoUpdate: 0
+  autoUpdate: 1
+  octaves: 4
+  persistance: 0.5
+  lacunarity: 2
 --- !u!114 &695669935
 MonoBehaviour:
   m_ObjectHideFlags: 0
