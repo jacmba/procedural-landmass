@@ -1,14 +1,20 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp.dll"
+/out:"Temp/Unity.Rider.Editor.dll"
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEditor.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
@@ -65,6 +71,7 @@
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
@@ -183,15 +190,10 @@
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
-/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
-/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -253,12 +255,13 @@
 /define:ENABLE_WEBSOCKET_HOST
 /define:ENABLE_WWW
 /define:INCLUDE_DYNAMIC_GI
-/define:NET_STANDARD_2_0
+/define:NET_4_6
 /define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_LINUX
 /define:PLATFORM_SUPPORTS_MONO
 /define:RENDER_SOFTWARE_CURSOR
+/define:TEST_FRAMEWORK
 /define:TRACE
 /define:UNITY_2017_1_OR_NEWER
 /define:UNITY_2017_2_OR_NEWER
@@ -290,6 +293,26 @@
 /define:UNITY_STANDALONE_LINUX
 /define:UNITY_STANDALONE_LINUX_API
 /define:UNITY_TEAM_LICENSE
-"Assets/Scripts/MapDisplay.cs"
-"Assets/Scripts/MapGenerator.cs"
-"Assets/Scripts/Noise.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Discovery.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/EditorPluginInterop.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/LoggingLevel.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/PluginSettings.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/PostProcessors/RiderAssetPostprocessor.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/ProjectGeneration/FileIOProvider.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/ProjectGeneration/GUIDProvider.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/ProjectGeneration/ProjectGeneration.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderInitializer.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderScriptEditor.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderScriptEditorData.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/CallbackData.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/CallbackInitializer.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/RiderTestRunner.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/SyncTestRunCallback.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/SyncTestRunEventsHandler.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/TestEvent.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/UnitTesting/TestsCallback.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Util/CommandLineParser.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Util/FileSystemUtil.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Util/LibcNativeInterop.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Util/RiderMenu.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/Util/UnityUtils.cs"

@@ -1,13 +1,16 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp-Editor.dll"
+/out:"Temp/Unity.VisualStudio.Editor.dll"
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:"Library/ScriptAssemblies/Assembly-CSharp.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEditor.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
@@ -191,23 +194,6 @@
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
 /reference:"/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 /reference:"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
-/reference:"Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll"
-/reference:"Assets/Plugins/GitHub/Editor/GitHub.Logging.dll"
-/reference:"Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll"
-/reference:"Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll"
-/reference:"Assets/Plugins/GitHub/Editor/sfw.net.dll"
-/reference:"Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll"
-/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
-/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -306,4 +292,27 @@
 /define:UNITY_STANDALONE_LINUX
 /define:UNITY_STANDALONE_LINUX_API
 /define:UNITY_TEAM_LICENSE
-"Assets/Editor/MapGeneratorEditor.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Discovery.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/FileUtility.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Image.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/Deserializer.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/ExceptionEventArgs.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/Message.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/MessageEventArgs.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/MessageType.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/Messenger.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/Serializer.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Messaging/UdpSocket.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/ProjectGeneration/AssemblyNameProvider.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/ProjectGeneration/FileIOProvider.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/ProjectGeneration/GUIDProvider.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/ProjectGeneration/ProjectGeneration.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/ProjectGeneration/ProjectGenerationFlag.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Solution.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/SolutionParser.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/SolutionProjectEntry.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/SolutionProperties.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/Symbols.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/VisualStudioEditor.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/VisualStudioInstallation.cs"
+"/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ide.visualstudio@2.0.3/Editor/VisualStudioIntegration.cs"

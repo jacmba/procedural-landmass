@@ -238,21 +238,6 @@
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
         <HintPath>/home/jacinto/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Api.45">
-        <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-        <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-        <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity.45">
-        <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-        <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/home/jacinto/projects/unity/Procedural Landmass/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
@@ -639,11 +624,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{b80c456c-a2b4-9201-4c78-6ae413241bef}</Project>
       <Name>Assembly-CSharp</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{0d2683c6-96f9-f388-7f52-0925d2494d04}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
